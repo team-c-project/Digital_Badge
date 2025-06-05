@@ -5,6 +5,6 @@ import { SignUp } from "./screens/SignUp/SignUp";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
-    <Home/>
+    <SignUp/>
   </StrictMode>,
 );
