@@ -4,10 +4,11 @@ import { Home } from "./screens/Home/Home";
 import { SignUp } from "./screens/SignUp/SignUp";
 import { Badge } from "./screens/Badge/Badge";
 import { Issuers } from "./screens/Issuers/Issuers";
+import { Verification } from "./screens/Verification";
 
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
-    <Issuers/>
+    <Verification/>
   </StrictMode>,
 );
