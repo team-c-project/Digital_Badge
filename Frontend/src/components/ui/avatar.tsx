@@ -2,12 +2,8 @@
 
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 import * as React from "react";
-<<<<<<< HEAD
 
 import { cn } from "../../lib/utils";
-=======
-import { cn } from "../../lib/utils"; // ✅ Adjusted path
->>>>>>> 9035aadfd408a6b02b79e22bd02ecdb7439dfd99
 
 const Avatar = React.forwardRef<
   React.ElementRef<typeof AvatarPrimitive.Root>,
@@ -52,3 +48,4 @@ const AvatarFallback = React.forwardRef<
 AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName;
 
 export { Avatar, AvatarImage, AvatarFallback };
+
